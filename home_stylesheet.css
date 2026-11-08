@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+
+    background-color: black;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;             /*it will provide space between logo and buttons */
+                                            
+    padding: 30px 20px;                             /* to bring the items in centre */
+
+}
+
+
+.logo {
+
+    color: rgb(254, 254, 254);
+    font-size: 22px;
+
+
+}
+
+header nav div ul li {
+
+    display: inline-block;              /* it will take only the required space*/
+    padding: 0px 10px;                    /* To make the gap between buttons*/
+    
+
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    /* full width */
+    background-image: url('images/cars.jpg');
+    background-size: cover;
+    /* THIS makes it cover entire section */
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    padding-top: 20vh;
+    padding-left: 5vw;
+    font-size: 40px;
+    color: white;
+}
+
+#hero p {
+    width: 40vw;
+    padding-left: 8vw;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.backimg{
+    margin: 25px;
+    width: 30vh;
+    height:50vh;
+    background-repeat: no-repeat;
+    background-color: #092356;
+}
+
+#featured {
+    /* This is for Featured section */
+    height: 70vh;
+    background-color: #6d7180;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 40px;
+    color: #b9c5cf;
+}
+
+.featureddiv p {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    font-size: 28px;
+    color: #b9c5cf;
+    border-radius: 70px;
+    background-color: rgb(79 83 98);
+
+}
+
+#brands {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* 2 equal columns */
+
+    padding: 70px;
+}
+
+.audi {
+    background-color: #092356;
+}
+
+
+#brands div {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    height: 70vh;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 100px;
+}
+
+#brands img {
+    width: 100%;
+
+    display: block;
+    border-radius: 100px;
+}
+
+.btn {
+    text-decoration: none;
+    /* It will remove the line under the text */
+    background-color: #e3e3e3;
+    color: black;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #6d7180;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    
+}
+
+.contact{
+    padding: 23px;
+    font-size: 20px;
+}
+
+.footer ul li{
+    display: block;
+     padding: 5px 10px;
+
+}
+
+footer nav ul li a {
+    font-size: 25px;
+    padding: 30px;
+    padding-right: 190px;
+     text-decoration: none ;
+     color: black;
+     
+}
+.copy{
+    text-align: center;
+    background-color: #6d7180;
+}
+

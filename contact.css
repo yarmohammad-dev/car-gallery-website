@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: black;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;             /*it will provide space between logo and buttons */
+                                            
+    padding: 30px 20px;                             /* to bring the items in centre */
+
+}
+
+
+.logo {
+
+    color: rgb(254, 254, 254);
+    font-size: 22px;
+
+
+}
+
+header nav div ul li {
+
+    display: inline-block;              /* it will take only the required space*/
+    padding: 0px 10px;                    /* To make the gap between buttons*/
+    
+
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+.heading{
+    background-color: #65666c;
+    height: 30vh;
+    padding-top: 30px;
+    text-align: center;
+}
+.sect1{
+    background-color: #65666c;
+    display: grid;
+    grid-template-columns:auto auto;
+    height: 80vh;
+    
+}
+.adres{
+    width: 40vw;
+    font-size: 20px;
+    line-height: 2;
+    padding-left:20px ;
+    padding-top: 10vh;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+.contact{
+    padding: 23px;
+    font-size: 20px;
+}
+.form{
+    padding-top: 5vh;
+    padding-left: 10vw;
+   font-size: 20px;
+   border: 2px solid white;
+}
+.form h1{
+    padding-bottom: 30px;
+}
+footer {
+    background-color: #6d7180;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    
+}
+
+.contact{
+    padding: 23px;
+    font-size: 20px;
+}
+
+.footer ul li{
+    display: block;
+     padding: 5px 10px;
+
+}
+
+footer nav ul li a {
+    font-size: 25px;
+    padding: 30px;
+    padding-right: 190px;
+     text-decoration: none ;
+     color: black;
+     
+}
+.copy{
+    text-align: center;
+    background-color: #6d7180;
+}

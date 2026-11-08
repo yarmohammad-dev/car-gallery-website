@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: black;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;             /*it will provide space between logo and buttons */
+                                            
+    padding: 30px 20px;                             /* to bring the items in centre */
+
+}
+
+
+.logo {
+
+    color: rgb(254, 254, 254);
+    font-size: 22px;
+
+
+}
+
+header nav div ul li {
+
+    display: inline-block;              /* it will take only the required space*/
+    padding: 0px 10px;                    /* To make the gap between buttons*/
+    
+
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+.heading{
+    background-color: #65666c;
+    height: 30vh;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#audi{
+    background-color: #65666c;
+}
+
+#audi p{
+     background-color: #65666c;
+     padding-left: 200px;
+     width: 70vw;
+     font-size: 20px;
+     padding-bottom: 20px;
+     
+    
+}
+#audi h1{
+    background-color: #65666c;
+    text-align: center;
+    font-size: 30px;
+    padding-top:40px ;
+
+    
+}
+#audi img {
+    display: inline-block;
+  width: 300px;   
+  border-radius: 100px;
+}
+#bmw{
+    background-color: #65666c;
+}
+
+#bmw p{
+     background-color: #65666c;
+     padding-left: 200px;
+     width: 70vw;
+     font-size: 20px;
+     padding-bottom: 20px;
+     
+    
+}
+#bmw h1{
+    background-color: #65666c;
+    text-align: center;
+    font-size: 30px;
+    padding-top:40px ;
+
+    
+}
+#bmw img {
+    display: inline-block;
+  width: 300px;   
+  border-radius: 100px;
+}
+
+#mercedes{
+    background-color: #65666c;
+}
+
+#mercedes p{
+     background-color: #65666c;
+     padding-left: 200px;
+     width: 70vw;
+     font-size: 20px;
+     padding-bottom: 20px;
+     
+    
+}
+#mercedes h1{
+    background-color: #65666c;
+    text-align: center;
+    font-size: 30px;
+    padding-top:40px ;
+
+    
+}
+#mercedes img {
+    display: inline-block;
+  width: 300px;   
+  border-radius: 100px;
+}
+
+
+
+footer {
+    background-color: #6d7180;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    
+}
+
+.contact{
+    padding: 23px;
+    font-size: 20px;
+}
+
+.footer ul li{
+    display: block;
+     padding: 5px 10px;
+
+}
+
+footer nav ul li a {
+   font-size: 25px;
+    padding: 30px;
+    padding-right: 190px;
+    text-decoration: none ;
+    color: black;
+    
+     
+}
+.copy{
+    text-align: center;
+    background-color: #6d7180;
+}
